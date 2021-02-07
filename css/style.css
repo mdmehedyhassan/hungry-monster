@@ -1,3 +1,25 @@
+body{
+    background-image: linear-gradient(90deg, tomato, rgb(170, 23, 243));
+}
 .logo-image img{
     width: 100px;
+}
+.data-parent-div:hover {
+    cursor: pointer;
+}
+
+.unavoidable {
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+#details{
+    position: absolute; 
+    top: 100px;
+    left:30%;
+    margin: auto;
+    height: auto;
+    width: 40%; 
+    background-color:aquamarine;
 }
